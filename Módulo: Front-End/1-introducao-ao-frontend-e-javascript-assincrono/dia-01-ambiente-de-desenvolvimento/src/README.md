@@ -19,3 +19,4 @@ API é application programming interface.
 https://pokeapi.co/api/v2/pokemon 
 
 surge.sh static web publishing for Front-End Developers
+

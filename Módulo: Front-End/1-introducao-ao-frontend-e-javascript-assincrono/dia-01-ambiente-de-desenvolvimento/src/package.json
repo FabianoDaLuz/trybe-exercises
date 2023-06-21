@@ -1,7 +1,7 @@
 {
   "name": "aula",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm init -y",
   "main": "index.js",
   "scripts": {
     "dev": "vite --open",
@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nanoid": "^4.0.2",
     "vite": "^4.3.9"
-  }
+  },
+  "type": "module",
+  "keywords": []
 }
