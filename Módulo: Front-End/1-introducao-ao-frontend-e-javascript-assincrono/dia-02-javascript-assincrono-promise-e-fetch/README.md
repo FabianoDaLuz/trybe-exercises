@@ -28,4 +28,5 @@ pending (pendente)
 fulfilled (realizada)
 rejected (rejeitada)
 
-Método fetch:
+Método fetch: solicitação/requisição de dados à API.
+dados retornados em formato JSON.
