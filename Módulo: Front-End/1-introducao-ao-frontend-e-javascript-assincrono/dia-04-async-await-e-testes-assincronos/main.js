@@ -21,7 +21,7 @@ getQuoteButton.addEventListerner('click', async () => {
     try {
         const response = await fetch(API_URL);
         const data = await response.json();
-        queteText.innerText = data.quote;
+        quoteText.innerText = data.quote;
         authorText.innerText = data.author;
         errorText.innerText = "";
     } catch (error) {
