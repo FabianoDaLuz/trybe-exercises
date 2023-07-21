@@ -7,4 +7,3 @@ function sum(x, y) {
 
 console.log(sum(a, b))
 // retorna "12" (string) ap invés de 3(number)
-
