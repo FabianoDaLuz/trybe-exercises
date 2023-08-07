@@ -1,0 +1,22 @@
+section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    color: #000;
+    margin-top: 10px;
+}
+
+li {
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
