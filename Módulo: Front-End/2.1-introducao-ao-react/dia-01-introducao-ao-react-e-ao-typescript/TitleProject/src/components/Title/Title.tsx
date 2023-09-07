@@ -1,7 +1,11 @@
 import * as React from "react";
 
-function Title() {
-  return <h1>Desenvolvimento Web</h1>;
+type TitleProps = {
+  children: React.ReactNode;
+};
+
+function Title({ children }: TitleProps) {
+  return <h2>{children}</h2>;
 }
 
 export default Title;

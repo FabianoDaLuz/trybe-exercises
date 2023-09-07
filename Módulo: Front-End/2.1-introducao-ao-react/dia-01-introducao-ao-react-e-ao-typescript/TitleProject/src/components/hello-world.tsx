@@ -1,7 +1,7 @@
 import * as React from "react";
 import ModuleDetails from "./ModuleDetails/ModuleDetails";
 import Title from "./Title/Title";
-import { calculateAge } from "../utils/age";
+import { calculateAge } from "../data/age";
 
 function HelloWorld() {
   const name = "John Connor";
@@ -12,7 +12,7 @@ function HelloWorld() {
     <div>
       <h1 style={{ color: "green", textAlign: "center" }}>{name}</h1>
       <p>{`Age ${age}`}</p>
-      <Title />
+      <Title children={undefined} />
       <ModuleDetails />
     </div>
   );
